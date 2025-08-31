@@ -1,0 +1,13 @@
+Roles:
+Contenidistas:
+Buscador:Oliver Torgen, Leonela Phantachith,Susana Bergalo
+Escritor:Oliver Torgen,Leonela Phanthachit,Susana Bergalo
+Corrector: Oliver Torgen
+Orador/Presentador:
+Programadores
+Frontend: Luciano Piriz, Ana Rindfleisch 
+Backend: Luciano Piriz, Ana Rindfleisch 
+Desarrollador de chatbot
+Diseñador
+Diseñador UI (estética) Ana Rindfleisch 
+Diseñador UX (funcionalidad)Ana Rindfleisch,Luciano Piriz, Oliver Torgen
