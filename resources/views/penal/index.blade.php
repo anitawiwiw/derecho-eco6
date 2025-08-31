@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Barra Chat Bot</title>
   <style>
+
     html, body {
       height: 100%;
       margin: 0;
@@ -39,7 +40,7 @@
         color: #4d4138;
     }
 
-    
+    /*la flexita con opciones*/
     .menu-toggle {
      cursor: pointer;
       font-size: 24px;
@@ -73,6 +74,7 @@
     cursor: pointer;
     transition: opacity 0.2s;
     }
+    /*colores de los botones*/
     .menu-desplegable button:nth-child(1) {
       background:  #fbba6b;
       border: 3px solid #e9a349ff;
@@ -93,6 +95,7 @@
     .menu-desplegable button:hover {
       opacity: 0.8;
     }
+    /*el texto del chat-bot*/
     .barra-chat__header {
        
       text-align: center;
@@ -113,6 +116,7 @@
     padding: 7%;
     
     }
+    /*el coso donde se escribe en el chat*/
    .barra-chat__input input[type="text"] {
       width: 100%;
       padding: 20px 26px;
@@ -122,11 +126,34 @@
       background: #fda769;
       font-size: 14px;
     }
+    /*para que tenga bien los margenes*/
+    .contenido {
+     padding: 16px;
+     margin-right: 30vw;
+     margin-top: 60px;
+
+        }
+        /*el contenedor ferde con info*/
+    .contenedor-info {
+     margin: 10%;
+     height: 200vh; /* más alto para que se pueda hacer scroll */
+     background: #98aa67;;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+    .contenedor-info p {
+     text-align: center;
+     font-size: 20px;
+     color: #fff;
+}
     </style>
 </head>
 <body>
 <main class="contenido">
-
+<div class="contenedor-info">
+<p>Texto centrado dentro del contenedor con margen.</p>
+</div>
 </main>
 
 <aside class="barra-penal">
