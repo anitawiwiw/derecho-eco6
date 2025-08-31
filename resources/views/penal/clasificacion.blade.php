@@ -45,7 +45,7 @@
     .menu-toggle {
      cursor: pointer;
       font-size: 24px;
-      padding:   44%;
+      padding:   1%;
       user-select: none;
 }
      .menu-desplegable {
@@ -139,7 +139,7 @@
 
         }
         /*el contenedor ferde con info*/
- .contenedor-info {
+    .contenedor-info {
         margin: 5% 10%;
         padding: 2rem;
         min-height: 100vh;
@@ -192,78 +192,57 @@
         margin-bottom: 3rem;
         width: 100%;
     }
-
     </style>
 </head>
 <body>
 <main class="contenido">
 <div class="contenedor-info">
-<p><h2>Definición</h2>
-    <p>
-      El <span class="highlight">Derecho Penal</span> es la rama del derecho público que establece cuáles son las conductas consideradas delitos y fija las penas o medidas que se aplican a quienes las cometen. 
-      Su función principal es proteger a la sociedad y a los bienes jurídicos fundamentales (vida, libertad, propiedad, entre otros) mediante la amenaza y aplicación de sanciones.
-    </p>
-    <p>
-      En Argentina, el Derecho Penal se encuentra regulado principalmente en el <b>Código Penal de la Nación</b> (1921, con múltiples reformas).
-    </p>
-
-    <h2>Tipos de Derecho Penal</h2>
+<h2>El Código Penal Argentino</h2>
+    <p>Vigente desde 1921 (con reformas). Contiene los tipos de delitos y sus penas.</p>
+    <p>Se divide en:</p>
     <ul>
-      <li><b>Sustantivo:</b> establece los delitos y las penas (contenido del Código Penal).</li>
-      <li><b>Adjetivo o procesal:</b> regula cómo se investigan, juzgan y ejecutan las penas.</li>
-      <li><b>Común:</b> aplicable a todo el territorio nacional, salvo excepciones.</li>
-      <li><b>Especial:</b> normas penales específicas fuera del Código Penal (drogas, lavado de dinero, violencia de género, etc.).</li>
+        <li>Parte general (principios, penas, participación).</li>
+        <li>Parte especial (delitos específicos: homicidio, robo, abuso, corrupción, etc.).</li>
     </ul>
 
-    <h2>Bienes Jurídicos</h2>
-    <p>El bien jurídico es el interés o valor protegido por la norma penal. El Derecho Penal argentino protege, entre otros:</p>
+    <h2>Tipos de delitos</h2>
     <ul>
-      <li>La vida y la integridad física (homicidio, lesiones).</li>
-      <li>La libertad (amenazas, privación ilegítima de la libertad, abuso sexual).</li>
-      <li>La propiedad (hurto, robo, estafa, usurpación).</li>
-      <li>El orden público y la seguridad (asociación ilícita, terrorismo, tráfico de armas).</li>
-      <li>La administración pública (cohecho, peculado, malversación).</li>
+        <li>Delitos contra la vida (homicidio).</li>
+        <li>Contra la integridad sexual (abuso).</li>
+        <li>Contra la propiedad (robo, hurto).</li>
+        <li>Delitos económicos, ambientales, informáticos, etc.</li>
     </ul>
 
-    <h2>Penas</h2>
-    <p>El Código Penal argentino prevé distintas penas:</p>
+    <h2>¿Cómo se aplica el Derecho Penal?</h2>
+    <p>A través de un Código Penal, que es un conjunto de normas que dicen:</p>
     <ul>
-      <li><b>Prisión o reclusión:</b> privación de la libertad (perpetua o determinada).</li>
-      <li><b>Multa:</b> obligación de pagar una suma de dinero.</li>
-      <li><b>Inhabilitación:</b> prohibición de ejercer ciertos cargos, profesiones o derechos.</li>
-      <li><b>Accesorias:</b> como la pérdida de la patria potestad en ciertos delitos.</li>
+        <li>Qué actos son delitos.</li>
+        <li>Qué penas se aplican.</li>
+        <li>Qué circunstancias pueden agravar o reducir la pena (por ejemplo, si fue con violencia o si el acusado es menor de edad).</li>
     </ul>
-    <p>El sistema busca que las penas sean <i>preventivas, retributivas y resocializadoras</i>.</p>
 
-    <h2>Proceso Penal</h2>
-    <p>El proceso penal argentino es el conjunto de etapas para investigar y juzgar un delito. Generalmente incluye:</p>
+    <h2>Cuadro comparativo – Derecho Penal Argentino</h2>
     <ul>
-      <li><b>Denuncia o actuación de oficio:</b> inicio de la causa.</li>
-      <li><b>Investigación penal preparatoria:</b> a cargo del fiscal con control judicial.</li>
-      <li><b>Etapa intermedia:</b> se decide si el caso va a juicio.</li>
-      <li><b>Juicio oral y público:</b> el tribunal escucha a las partes y dicta sentencia.</li>
-      <li><b>Ejecución de la pena:</b> cumplimiento de la sanción en caso de condena.</li>
+        <li><strong>Definición de Derecho Penal:</strong> Libro Primero – Título I: Aplicación de la Ley Penal (arts. 1 a 4)</li>
+        <li><strong>Tipos de Derecho Penal:</strong> No aparece en el índice del Código Penal.</li>
+        <li><strong>Bienes Jurídicos protegidos:</strong> Libro Segundo – De los Delitos (varios títulos)</li>
+        <li><strong>Penas:</strong> No está en el Código Penal.</li>
+        <li><strong>Denuncias:</strong> Libro Primero – Título XI: Del ejercicio de las acciones (arts. 71 a 76)</li>
     </ul>
-    <p>
-      Actualmente, el país transita de un sistema <b>inquisitivo</b> a un sistema <b>acusatorio</b>, donde el fiscal tiene más protagonismo y el juez garantiza la legalidad.
-    </p>
 
-    <h2>Denuncias</h2>
-    <p>La denuncia penal es la comunicación de un hecho delictivo ante una autoridad. En Argentina, puede hacerse:</p>
+    <h2>Tipos de delitos (con ejemplos)</h2>
     <ul>
-      <li>Ante la policía.</li>
-      <li>En la fiscalía.</li>
-      <li>Ante un juzgado penal.</li>
+        <li>Delitos contra la vida: Caso femicidio en Salta, sancionado con prisión perpetua.</li>
+        <li>Delitos contra la propiedad: Robo de electrodomésticos con violencia o arma.</li>
+        <li>Delitos sexuales: Caso de abuso sexual en escuela, agravado si víctima menor.</li>
+        <li>Delitos informáticos: Hackeo de cuenta bancaria con estafa electrónica.</li>
     </ul>
-    <p>
-      Cualquier persona puede denunciar un delito, incluso si no fue víctima directa. 
-      En algunos casos, la denuncia es obligatoria (ejemplo: para funcionarios públicos que toman conocimiento de un delito en ejercicio de sus funciones).
-    </p></p>
+</div>
 </div>
 </main>
 
 <aside class="barra-penal">
-<div class="barra-penal-texto">Derecho Penal</div>
+<div class="barra-penal-texto">El Código Penal y los Tipos de Delitos</div>
 <div class="menu-toggle">⮟</div>
     <span></span>
     <div class="menu-desplegable" id="menu">

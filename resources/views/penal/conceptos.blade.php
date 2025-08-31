@@ -45,7 +45,7 @@
     .menu-toggle {
      cursor: pointer;
       font-size: 24px;
-      padding:   44%;
+      padding:   1%;
       user-select: none;
 }
      .menu-desplegable {
@@ -139,7 +139,7 @@
 
         }
         /*el contenedor ferde con info*/
- .contenedor-info {
+    .contenedor-info {
         margin: 5% 10%;
         padding: 2rem;
         min-height: 100vh;
@@ -191,79 +191,48 @@
     .bloque {
         margin-bottom: 3rem;
         width: 100%;
-    }
-
+}
     </style>
 </head>
 <body>
 <main class="contenido">
 <div class="contenedor-info">
-<p><h2>Definición</h2>
-    <p>
-      El <span class="highlight">Derecho Penal</span> es la rama del derecho público que establece cuáles son las conductas consideradas delitos y fija las penas o medidas que se aplican a quienes las cometen. 
-      Su función principal es proteger a la sociedad y a los bienes jurídicos fundamentales (vida, libertad, propiedad, entre otros) mediante la amenaza y aplicación de sanciones.
-    </p>
-    <p>
-      En Argentina, el Derecho Penal se encuentra regulado principalmente en el <b>Código Penal de la Nación</b> (1921, con múltiples reformas).
-    </p>
+<h2>¿Qué es el Derecho Penal?</h2>
+    <p>Es una rama del derecho público que se encarga de establecer qué conductas son delitos y cuáles son las sanciones para quienes las cometen.</p>
+    <p>En otras palabras: el Derecho Penal es la relación entre el Estado y el ciudadano cuando hay una conducta delictiva. Protege a la sociedad castigando las acciones más graves, como el robo, el homicidio, el abuso, entre otros.</p>
 
-    <h2>Tipos de Derecho Penal</h2>
+    <h2>¿De qué trata el Derecho Penal?</h2>
+    <p>Trata de regular el poder punitivo del Estado, o sea, el poder que tiene el Estado para castigar a una persona cuando comete un delito. Su objetivo es:</p>
     <ul>
-      <li><b>Sustantivo:</b> establece los delitos y las penas (contenido del Código Penal).</li>
-      <li><b>Adjetivo o procesal:</b> regula cómo se investigan, juzgan y ejecutan las penas.</li>
-      <li><b>Común:</b> aplicable a todo el territorio nacional, salvo excepciones.</li>
-      <li><b>Especial:</b> normas penales específicas fuera del Código Penal (drogas, lavado de dinero, violencia de género, etc.).</li>
+        <li>Prevenir los delitos.</li>
+        <li>Reparar el daño causado.</li>
+        <li>Reinsertar al delincuente en la sociedad.</li>
+        <li>Proteger los derechos de todas las personas.</li>
+    </ul>
+    <p>Es público: porque el Estado acusa, no un particular.<br>
+       Es punitivo: porque aplica sanciones.<br>
+       Es “Última ratio” porque se aplica sólo cuando otras ramas no pueden resolver el conflicto.</p>
+
+    <h2>Finalidad del Derecho Penal</h2>
+    <ul>
+        <li>Proteger bienes jurídicos (como la vida, la libertad, la propiedad).</li>
+        <li>Evitar la venganza personal (es decir, que cada uno haga justicia por mano propia).</li>
+        <li>Como todo el Derecho: mantener el orden social.</li>
     </ul>
 
-    <h2>Bienes Jurídicos</h2>
-    <p>El bien jurídico es el interés o valor protegido por la norma penal. El Derecho Penal argentino protege, entre otros:</p>
+    <h2>Principios fundamentales (Oliver)</h2>
     <ul>
-      <li>La vida y la integridad física (homicidio, lesiones).</li>
-      <li>La libertad (amenazas, privación ilegítima de la libertad, abuso sexual).</li>
-      <li>La propiedad (hurto, robo, estafa, usurpación).</li>
-      <li>El orden público y la seguridad (asociación ilícita, terrorismo, tráfico de armas).</li>
-      <li>La administración pública (cohecho, peculado, malversación).</li>
+        <li>Legalidad: No hay delito ni pena sin ley previa (art. 18 CN).</li>
+        <li>Irretroactividad: La ley penal no se aplica hacia el pasado (salvo que beneficie al acusado).</li>
+        <li>Proporcionalidad: La pena debe ser justa respecto al daño.</li>
+        <li>Presunción de inocencia.</li>
     </ul>
-
-    <h2>Penas</h2>
-    <p>El Código Penal argentino prevé distintas penas:</p>
-    <ul>
-      <li><b>Prisión o reclusión:</b> privación de la libertad (perpetua o determinada).</li>
-      <li><b>Multa:</b> obligación de pagar una suma de dinero.</li>
-      <li><b>Inhabilitación:</b> prohibición de ejercer ciertos cargos, profesiones o derechos.</li>
-      <li><b>Accesorias:</b> como la pérdida de la patria potestad en ciertos delitos.</li>
-    </ul>
-    <p>El sistema busca que las penas sean <i>preventivas, retributivas y resocializadoras</i>.</p>
-
-    <h2>Proceso Penal</h2>
-    <p>El proceso penal argentino es el conjunto de etapas para investigar y juzgar un delito. Generalmente incluye:</p>
-    <ul>
-      <li><b>Denuncia o actuación de oficio:</b> inicio de la causa.</li>
-      <li><b>Investigación penal preparatoria:</b> a cargo del fiscal con control judicial.</li>
-      <li><b>Etapa intermedia:</b> se decide si el caso va a juicio.</li>
-      <li><b>Juicio oral y público:</b> el tribunal escucha a las partes y dicta sentencia.</li>
-      <li><b>Ejecución de la pena:</b> cumplimiento de la sanción en caso de condena.</li>
-    </ul>
-    <p>
-      Actualmente, el país transita de un sistema <b>inquisitivo</b> a un sistema <b>acusatorio</b>, donde el fiscal tiene más protagonismo y el juez garantiza la legalidad.
-    </p>
-
-    <h2>Denuncias</h2>
-    <p>La denuncia penal es la comunicación de un hecho delictivo ante una autoridad. En Argentina, puede hacerse:</p>
-    <ul>
-      <li>Ante la policía.</li>
-      <li>En la fiscalía.</li>
-      <li>Ante un juzgado penal.</li>
-    </ul>
-    <p>
-      Cualquier persona puede denunciar un delito, incluso si no fue víctima directa. 
-      En algunos casos, la denuncia es obligatoria (ejemplo: para funcionarios públicos que toman conocimiento de un delito en ejercicio de sus funciones).
-    </p></p>
+</div>
 </div>
 </main>
 
 <aside class="barra-penal">
-<div class="barra-penal-texto">Derecho Penal</div>
+<div class="barra-penal-texto">Conceptos Fundamentales del Derecho Penal</div>
 <div class="menu-toggle">⮟</div>
     <span></span>
     <div class="menu-desplegable" id="menu">
