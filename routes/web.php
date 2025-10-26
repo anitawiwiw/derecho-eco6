@@ -1,10 +1,29 @@
 <?php
+use App\Http\Controllers\UsuarioController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-// Página principal
-Route::get('/', function () {
-    return view('penal.index'); 
+Route::get('/', fn() => view('welcome'))->name('inicio');
+Route::get('/login', [UsuarioController::class, 'mostrarLogin'])->name('login');
+Route::post('/login', [UsuarioController::class, 'login']);
+Route::get('/logout', [UsuarioController::class, 'logout']);
+
+Route::get('/penal', function () {
+    $usuario = session('usuario');
+    if (!$usuario) return redirect('/login');
+    return "Bienvenido al sistema penal, $usuario";
 });
+
+Route::get('/admin', function () {
+    if (session('usuario') !== 'admin') return redirect('/login');
+    return 'Bienvenido, administrador';
+});
+
+Route::get('/logout', function() {
+    session()->flush();
+    return redirect('/login');
+});
+
 
 // Página de Conceptos Fundamentales
 Route::get('/penal/conceptos', function () {
