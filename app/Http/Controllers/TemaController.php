@@ -35,5 +35,6 @@ class TemaController extends Controller
 
         return redirect()->route('admin.temas.index')->with('success', 'Tema creado correctamente.');
     }
+    
 }
 

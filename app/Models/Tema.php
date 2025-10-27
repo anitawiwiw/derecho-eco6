@@ -17,5 +17,8 @@ class Tema extends Model {
         'link',
         'documento'
     ];
+        use HasFactory;
+
+    protected $table = 'temas'; // tu tabla de temas
 }
 

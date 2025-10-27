@@ -3,7 +3,8 @@ use App\Http\Controllers\UsuarioController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\TemaController;
-
+use App\Models\Tema;
+use Illuminate\Http\Request;
 Route::get('/', fn() => view('welcome'))->name('inicio');
 Route::get('/login', [UsuarioController::class, 'mostrarLogin'])->name('login');
 Route::post('/login', [UsuarioController::class, 'login']);
@@ -12,10 +13,8 @@ Route::get('/logout', [UsuarioController::class, 'logout']);
 Route::get('/penal', function () {
     $usuario = session('usuario');
     if (!$usuario) return redirect('/login');
-    return "Bienvenido al sistema penal, $usuario";
+    return view('penal.index', compact('usuario'));
 });
-use App\Models\Tema;
-use Illuminate\Http\Request;
 
 // Panel admin: listado de temas
 Route::get('/admin', function () {
@@ -90,8 +89,11 @@ Route::get('/logout', function() {
     return redirect('/login');
 });
 
+use App\Http\Controllers\TemaPublicoController;
 
-
+Route::get('penal', [TemaPublicoController::class, 'index'])->name('penal.index');
+Route::get('penal/buscar', [TemaPublicoController::class, 'buscar'])->name('penal.buscar');
+Route::get('penal/tema/{id}', [TemaPublicoController::class, 'ver'])->name('penal.ver');
 // Página de Conceptos Fundamentales
 Route::get('/penal/conceptos', function () {
     return view('penal.conceptos'); // resources/views/penal/conceptos.blade.php

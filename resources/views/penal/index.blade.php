@@ -196,6 +196,12 @@
     </style>
 </head>
 <body>
+  <div class="busqueda">
+    <form action="{{ route('penal.buscar') }}" method="GET">
+        <input type="text" name="q" placeholder="Buscar artículos..." required>
+        <button type="submit">Buscar</button>
+    </form>
+</div>
 <main class="contenido">
 <div class="contenedor-info">
 <p><h2>Definición</h2>
@@ -261,7 +267,12 @@
     </p></p>
 </div>
 </main>
-
+<body>
+  <div class="busqueda">
+    <form action="{{ route('penal.buscar') }}" method="GET">
+        <input type="text" name="q" placeholder="Buscar artículos..." required>
+        <button type="submit">Buscar</button>
+    </form>
 <aside class="barra-penal">
 <div class="barra-penal-texto">Derecho Penal</div>
 <div class="menu-toggle">⮟</div>
